@@ -4,7 +4,7 @@ This script is designed for employees of hosting companies to automate their dai
 
 ## Features
 
-- **Domain WHOIS Check**: Uses the whois command to fetch domain registration details and checks for specific keywords or patterns such as "x.yzx.", "cloudflare", or "undergoing proceeding" to determine if a domain meets the criteria.
+- **Domain WHOIS Check**: Uses the whois command to fetch domain registration details and checks for specific keywords or patterns such as "x.yzx.", "cloudflare" to determine if a domain meets the criteria.
 - **IP Address Verification**: If the initial domain check does not meet the criteria, the script further analyzes the domain's IP address using the host command to ensure it does not match any restricted IP patterns (e.g., 00.0 or 000.00).
 - **MX Record Analysis**: If the domain still does not meet the criteria, it performs a dig mx command to check the domain's MX (Mail Exchange) records and further verifies the host information for these records.
 - **Automated Reporting**: Writes the results to an output file (wynik.txt), indicating "NIE" (NO in Polish) if the domain does not meet the criteria and leaving it blank otherwise.
