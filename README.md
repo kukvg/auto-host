@@ -41,7 +41,7 @@ This script is designed for employees of hosting companies to automate their dai
 
 1. Prepare your dane.txt file with the domains you want to check.
    
-2. 1. Run the script after configuring your SSH credentials and environment.
+2. Run the script after configuring your SSH credentials and environment.
    ```bash
    python host.py
    ```
